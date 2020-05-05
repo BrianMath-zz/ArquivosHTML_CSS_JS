@@ -1,0 +1,202 @@
+body {
+    background-image: linear-gradient(0deg, #60E0A4, #6076DA);
+    font-family: Bahnschrift;
+
+    font-size: 20px;
+} 
+
+
+/*Start of navigation bar */
+nav {
+    background-color: #087770;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 1fr;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    background-color: rgb(25, 207, 116); 
+    box-shadow: 0 10px 14px #025a4788;
+    
+    width: 5.5em;
+    height: 2em;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #FF791F;
+    box-shadow: 0 10px 14px #99480588;
+
+    transition: 400ms;
+}
+/* End of navigation bar */
+
+
+/* Start of header */
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4em;
+}
+
+header div.intro p {
+    font-size: 2em;
+    text-shadow: 3px 2px 4px #60E0A4;
+
+    margin: 0;
+}
+
+header div.img1 img {
+    width: 100%;
+    height: auto;
+}
+/* End of header */
+
+
+/* Start of main */
+main section>p {
+    background-color: #FF791F;
+
+    font-size: 1.7em;
+    font-family: "Times New Roman";
+
+    text-align: center;
+
+    margin: 10px;
+}
+
+main div.ing {
+    background-color: #087770;
+    box-shadow: 0 10px 14px -8px #035f34c5;
+
+    border-radius: 8px;
+
+    padding: 0.2em;
+}
+
+main ul {
+    font-size: 1.4em;
+
+    list-style-image: url("https://i.imgur.com/ue0jmTs.png")
+}
+
+main section.steps {
+    font-size: 1.4em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+main section.steps div.step {
+    background-color: #087770;
+
+    border-radius: 8px;
+
+    box-shadow: 0 10px 14px -8px #035f34c5;
+
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border: 1.2px solid black;
+    margin-right: 0.3px;
+}
+
+main section.steps div.step div.content {
+    display: flex;
+}
+
+main div.img2 img {
+    width: 45%;
+    height: auto;
+}
+/* End of main */
+
+
+/* Start of comments */
+div#comments h2 {
+    background-color: #FF791F;
+
+    font-size: 1.7em;
+    font-family: "Times New Roman";
+
+    text-align: center;
+
+    margin: 10px;
+}
+
+div#comments div.intro p {
+    background-color: #087770;
+    box-shadow: 0 10px 14px -8px #035f34c5;
+
+    margin-top: 0;
+
+    border-radius: 8px;
+
+    padding: 0.2em;
+
+    font-family: Bahnschrift;
+    font-size: 1.4em;
+}
+/* End of comments */
+
+
+/* Start of links */
+div.links h2 {
+    background-color: #FF791F;
+
+    font-size: 1.7em;
+    font-family: "Times New Roman";
+
+    text-align: center;
+
+    margin: 0 10px;
+}
+
+div.links ol {
+    font-size: 1.4em;
+
+    list-style-type: upper-roman;
+
+    padding-left: 1.4em;
+    
+}
+
+div.links a {
+    text-decoration: none;
+
+    color: rgb(0, 47, 255);
+}
+
+div.links a:hover {
+    text-decoration: underline;
+}
+
+
+div.links a:checked {
+    text-decoration: none;
+
+    color: rgb(0, 47, 255);
+}
+/* End of links */
+
+
+@media screen and (max-width: 460) {
+
+}

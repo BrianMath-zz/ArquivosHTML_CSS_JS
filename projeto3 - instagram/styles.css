@@ -1,0 +1,218 @@
+body {
+    background-color: #F7F7F7;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #F7F7F7;
+    margin-top: 3%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.image, div.account {
+    width: 25%;
+    height: auto;
+}
+
+div.account {
+    margin-top: 2%;
+}
+
+div.image img{
+    width: 100%;
+    height: 100%;
+}
+
+div.login, div.createAccount {
+background-color: white;
+
+margin-top: 15px;
+
+border: 1px solid rgb(205, 197, 197);
+
+padding: 15px;
+display: block;
+}
+
+section.logo {
+    width: 80%;
+    height: auto;
+
+    margin: 0 auto;
+}
+
+section.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    width: 50%;
+
+    margin: 0 auto;
+}
+    
+form div.labels {
+    margin: 6px;
+}
+
+div.labels input, button#login {
+    padding: 5px;
+
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 2px;
+
+    background-color: #fafafa;
+
+    outline: none;
+}
+
+div.labels input:focus {
+    border: 1px solid rgb(145, 145, 145);
+}
+
+button#login {
+    margin-top: 10px;
+
+    border: 0;
+
+    background-color: #0095f6;
+    width: 105%;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 400ms;
+}
+
+button#login:hover {
+    box-shadow: 0px 2px 8px -1px #0173be;
+}
+
+section.facebookLogin, section.forgotPassword {
+    display: flex;
+
+    justify-content:center;
+}
+
+hr {
+    margin: 10px 20px 18px;
+}
+
+.facebookLogin img {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 2px;
+}
+
+.facebookLogin a {
+    text-decoration: none;
+
+    color: #385185;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.forgotPassword a {
+    margin-top: 12px;
+
+    text-decoration: none;
+    
+    color: #00376B;
+    font-size: 12px;
+}
+
+div.createAccount p {
+    display: flex;
+
+    justify-content: center;
+
+    margin: 0;
+
+    color: #262626;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+div.createAccount p a {
+    text-decoration: none;
+    
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-left: 2px;
+}
+
+div.getTheApp p {
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+div.download {
+    display: flex;
+
+    justify-content: center;
+}
+
+div.download img {
+    width: 136px;
+    height: 40px;
+
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+    margin-right: 16px;
+}
+
+ul li {
+    font-weight: 600;
+    
+    margin-right: 16px;
+}
+
+ul li a, span {
+    color: #00376B;
+    font-size: 12px;
+    
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+p {
+    color: #8e8e8e;
+    
+    font-size: 12px;
+}
+
+@media (max-width: 876px) {
+    div.image {
+        display: none;
+    }
+
+    
+}

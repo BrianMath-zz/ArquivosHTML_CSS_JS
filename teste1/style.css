@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+
+    background-image: url(https://1.bp.blogspot.com/-viLzUGAq_lk/XdnMog083AI/AAAAAAAAf7Y/d4pIAnZFFn0a7VpdzdqLXYoEiQdK432yACLcBGAsYHQ/s2560/mountains-reflection-sunlight-a5-2560x1440.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+div.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    padding: 40px;
+
+    background-color: rgba(5, 5, 5, 0.8);
+
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+div.box h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+
+    color: #fff;
+    text-align: center;
+
+    cursor: default;
+}
+
+div.box .inputBox {
+    position: relative;
+}
+
+div.box .inputBox input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 0;
+
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+
+    background: transparent;
+}
+
+div.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 10px 0;
+
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    
+    pointer-events: none;
+
+    transition: 0.5s;
+}
+
+div.box .inputBox input:focus ~ label,
+div.box .inputBox input:valid ~ label {
+    top: -18px;
+    left: 0;
+
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+div.box input[type="submit"] {
+    background: #03a9f4;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+}
