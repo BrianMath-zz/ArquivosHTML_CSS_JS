@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aprendendo canvas</title>
+    </head>
+
+    <body>
+        <canvas id="canv" width="200" height="200"></canvas>
+
+        <script>
+            var canv = document.querySelector("#canv");  // Variável com o canvas
+            var canvDimensao = canv.getContext("2d");    // Variável com o contexto (2d)
+
+            var imagem = new Image();  // Variável com um objeto de imagem
+
+            imagem.onload = function(){  // Função executada ao carregar a imagem
+                canvDimensao.drawImage(imagem, 10, 10, canv.width, canv.height);  // fonte, x, y, largura, altura
+            }
+
+            imagem.src = "https://cdn.comprerural.com/wp-content/uploads/2019/11/DSC_0390-2-640x486.jpg"  // Fonte da imagem
+        </script>
+
+    </body>
+</html>
